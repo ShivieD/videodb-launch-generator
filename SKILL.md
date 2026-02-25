@@ -10,6 +10,11 @@ triggers:
   - "videodb launch"
   - "social media content for launch"
   - "launch brief"
+  - "launch content for github.com"
+  - "create launch for https://github.com"
+  - "launch content based on video"
+  - "generate content from script"
+  - "create launch from demo video"
 ---
 
 # VideoDB Launch Content Generator
@@ -18,7 +23,20 @@ Generate comprehensive social media launch content for VideoDB features and prod
 
 ## Quick Start
 
-Provide a launch brief with:
+You can generate launch content by:
+
+### Option 1: Provide a GitHub Repository
+```
+Generate launch content for https://github.com/video-db/focusd
+```
+
+### Option 2: Use a Video or Script
+```
+Generate launch content from this demo video: /path/to/demo.mp4
+Create launch materials based on this script: /path/to/script.md
+```
+
+### Option 3: Provide a Launch Brief
 - **Product/Feature Name**: What you're launching
 - **What It Is**: 1-2 line description
 - **Technical Details**: How it works
@@ -206,7 +224,26 @@ The skill generates a single markdown document with:
 Generate launch content for VideoDB Scene Indexing feature
 ```
 
-### Example 2: With Brief
+### Example 2: GitHub Repository
+```
+Generate launch content for https://github.com/video-db/focusd
+```
+```
+Create launch materials for github.com/video-db/async-recorder
+```
+
+### Example 3: Video or Script Based
+```
+Generate launch content based on this demo video: /path/to/product-demo.mp4
+```
+```
+Create launch materials from this script: /path/to/launch-script.md
+```
+```
+Generate social media content from our product walkthrough video
+```
+
+### Example 4: With Brief
 ```
 Generate launch content:
 **Product/Feature Name:** Scene Indexing API

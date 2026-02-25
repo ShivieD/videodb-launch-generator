@@ -37,7 +37,7 @@ From a single launch brief, get:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/videodb-launch-generator.git
+git clone https://github.com/ShivieD/videodb-launch-generator.git
 cd videodb-launch-generator
 ```
 
@@ -53,6 +53,20 @@ cp -r videodb-launch-generator ~/.claude/skills/
 
 Simply trigger the skill with natural language:
 
+**From GitHub Repository:**
+```
+"Generate launch content for https://github.com/video-db/focusd"
+"Create launch materials for github.com/video-db/async-recorder"
+```
+
+**From Video or Script:**
+```
+"Generate launch content based on this demo video: /path/to/demo.mp4"
+"Create launch materials from this script: /path/to/launch-script.md"
+"Generate social media content from our product walkthrough video"
+```
+
+**From Feature Description:**
 ```
 "Generate launch content for Scene Indexing API"
 "Create launch materials for our Python SDK"
@@ -61,7 +75,16 @@ Simply trigger the skill with natural language:
 
 #### Standalone Usage
 
-Provide a launch brief with these details:
+You can provide input in multiple ways:
+
+**Option 1: GitHub Repository URL**
+The skill will fetch repository information and generate content based on the README, description, and code.
+
+**Option 2: Video or Script File**
+Provide a demo video or launch script, and the skill will extract key information to generate content.
+
+**Option 3: Launch Brief**
+Provide a detailed launch brief with these details:
 
 ```markdown
 **Product/Feature Name:** Scene Indexing API
@@ -145,6 +168,28 @@ Edit `references/voice-guidelines.md` to adjust:
 - Add company-specific examples
 
 ## 📚 Examples
+
+### Input: GitHub Repository
+
+```
+Generate launch content for https://github.com/video-db/focusd
+```
+
+The skill will:
+1. Fetch repository information (README, description, key features)
+2. Analyze the code and documentation
+3. Generate appropriate launch content based on the project
+
+### Input: Demo Video
+
+```
+Generate launch content from demo video: /path/to/product-demo.mp4
+```
+
+The skill will:
+1. Analyze the video content (if accessible)
+2. Extract key features and benefits shown
+3. Generate launch content highlighting demonstrated capabilities
 
 ### Input: Simple Feature Launch
 
