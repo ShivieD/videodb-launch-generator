@@ -59,11 +59,9 @@ Simply trigger the skill with natural language:
 "Create launch materials for github.com/video-db/async-recorder"
 ```
 
-**From Video or Script:**
+**From Video Script:**
 ```
-"Generate launch content based on this demo video: /path/to/demo.mp4"
 "Create launch materials from this script: /path/to/launch-script.md"
-"Generate social media content from our product walkthrough video"
 ```
 
 **From Feature Description:**
@@ -228,9 +226,6 @@ Contributions are welcome! Please feel free to submit a Pull Request. Areas for 
 - Industry-specific customizations
 - Localization for different markets
 
-## 📝 License
-
-MIT License - feel free to use this for your own product launches!
 
 ## 🙏 Acknowledgments
 
@@ -242,10 +237,9 @@ MIT License - feel free to use this for your own product launches!
 
 - **Issues**: Please open an issue for bugs or feature requests
 - **Discussions**: Share your launch success stories or customizations
-- **Contact**: Reach out to the VideoDB team for questions
 
 ---
 
-**Built with ❤️ for developers who build in public**
+**Built with ❤️ for VideoDB's success**
 
 *Note: This skill generates content in the voice of a technical founder. Adjust the voice guidelines for different brand personalities.*
